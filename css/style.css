@@ -9,10 +9,9 @@ figure {
 /*Template CSS de la page en display grid + couleurs*/
 
 :root {
-  --main-blue:#02b3e4;
+  --main-color:#02b3e4;
   --main-white: #f9f9f9;
-  --second-blue: whitesmoke;
- 
+  --second-color: whitesmoke;
 }
 
 #page {
@@ -27,7 +26,7 @@ figure {
   grid-template-rows: 150px 1fr 100px 70px;
   grid-template-columns: 0.001px 1fr;
   margin: 0;
-  background-color: var(--second-blue);
+  background-color: var(--second-color);
   
 }
 
@@ -37,8 +36,8 @@ figure {
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--second-blue);
-  background-color: var(--second-blue);
+  color: var(--second-color);
+  background-color: var(--second-color);
   
   
 }
@@ -46,12 +45,11 @@ figure {
 #page > nav {
   grid-area: nav;
   display: flex;
-  box-shadow: 5px 0px 32px rgba(0, 0, 0, 0.9);
 }
 
 #page > main {
   grid-area: main;
-  background-color: var(--second-blue);
+  background-color: var(--second-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +57,7 @@ figure {
 
 #page > #playing {
   grid-area: play;
-  background-color: var(--second-blue);
+  background-color: var(--second-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +70,7 @@ figure {
 
 #page > footer {
   grid-area: foot;
-  background-color:var(--main-blue);
+  background-color:var(--main-color);
   color: var(--main-white);
 }
 
@@ -136,7 +134,7 @@ nav {
 
 .show-btn:hover {
   background-color:pink; /* Green */
-  color: var(--second-blue);
+  color: var(--second-color);
 }
 
 button.plays {
@@ -154,7 +152,7 @@ button.plays {
 
 button:hover {
   background-color:pink; /* Green */
-  color: var(--second-blue);
+  color: var(--second-color);
 }
 
 /*TO DO : essayer de fusionner les boutons si possible !*/
@@ -186,7 +184,7 @@ button:hover {
   height: 100px;
   width: 100px;
   margin: 10px;
-  background-color: var(--main-blue);
+  background-color: var(--main-color);
   border-radius: 30px;
   border: none;
   outline: none;
@@ -315,7 +313,7 @@ input[type="checkbox"] {
   nav{
     width: 40px;
     height: 100%;
-    background-color: var(--second-blue); /* Black */
+    background-color: var(--second-color); /* Black */
     box-shadow: 10px 50px 10px rgba(0, 0, 0, 0.6);
   }
 
