@@ -89,7 +89,7 @@ img{
   cursor:pointer;
 }
 #output{
-  color:var(--main-blue);
+  color:var(--main-color);
   font-size: large;
   font-weight: bold ;
 }
